@@ -1,8 +1,8 @@
 import './News.scss'
 import React from 'react'
-import msi_img from '../../public/img/msi2023.png'
-import poster_img from '../../public/img/msi23-fullkv-poster-3840x1600-black.png'
-import esport_video from '../../public/video/global-esports-msi-hype-masthead.mp4'
+import msi_img from '../../../public/img/msi2023.png'
+import poster_img from '../../../public/img/msi23-fullkv-poster-3840x1600-black.png'
+import esport_video from '../../../public/video/global-esports-msi-hype-masthead.mp4'
 
 function News(){
 

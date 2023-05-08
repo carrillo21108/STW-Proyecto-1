@@ -1,0 +1,133 @@
+.careers-container{
+    display: flex;
+}
+
+.careers-content {
+    position: relative;
+    background-color: #e7e6e3;;
+    height: 600px;
+    width: 60%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+
+    div{
+        position: relative;
+        width: 60%;
+        margin-left: 100px;
+        text-align: center;
+
+        div{
+            display: flex;
+            margin-bottom: 40px;
+            margin-left: 0;
+            width: 100%;
+            
+            a{
+                display: block;
+                position: relative;
+                flex: 1 1 260px;
+                padding: 16px;
+                text-align: center;
+                background-color: rgba(173,172,170,.2);
+                border-radius: 8px;
+                font-size: 1.5rem;
+                line-height: 1.2;
+                font-weight: 700;
+                color: #656462;
+                text-decoration: none;
+                font-family: Outfit;
+            }
+
+            .first-target{
+                margin-right: 16px;
+                span{
+                    display: block;
+                    color: #0a0a0a;
+                    font-size: 3.75rem;
+                    font-weight: 700;
+                }
+            }
+            
+            .second-target{
+                span{
+                    display: block;
+                    color: #0a0a0a;
+                    font-size: 3.75rem;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        h2{
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #0a0a0a;
+            margin-bottom: 1.5rem;
+            font-family: Outfit;
+            margin-block-start: 6rem;
+            letter-spacing: .07em;
+        }
+    
+        p{
+            font-family: Outfit;
+            font-size: 1.2rem;
+            color: #656462;
+            line-height: 1.2;
+            letter-spacing: .07em;
+            margin: 0 auto 2.5rem;
+            font-weight: 590;
+            max-width: 500px;
+        }
+
+        .principal-target{
+            background: linear-gradient(135deg,#a32629 0,#d53235 100%);
+            box-shadow: 0 10px 45px -10px rgba(255,111,111,.15), 0 0 20px -10px rgba(255,111,111,.35), 0 10px 30px -10px rgba(255,111,111,.25);
+            position: relative;
+            display: inline-block;
+            border: 0;
+            vertical-align: middle;
+            cursor: pointer;
+            overflow: visible;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 18px;
+            line-height: 1;
+            min-width: 150px;
+            padding: 15px 6px;
+    
+            span{
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                border: 0;
+                align-items: center;
+                overflow: visible;
+                text-align: center;
+                border-radius: 18px;
+                line-height: 1;
+                min-width: 150px;
+                padding: 9px;
+                font-size: 1.3rem;
+                font-weight: 700;
+                letter-spacing: .07em;
+                transition: all .2s ease-out;
+                color: #f9f9f9;
+                font-family: Outfit;
+            }
+        }
+    }
+}
+
+.careers-image {
+    position: absolute;
+    background-image: url('https://www.riotgames.com/darkroom/1400/bbfc99ede199036723aebdc8d2f6d6ec:2449ffb7a260bc3acbaa82324dec1770/annie.jpg');
+    height: 600px;
+    width: 50%;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+}

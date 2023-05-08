@@ -1,0 +1,21 @@
+.topicality-container{
+    background-image: radial-gradient(circle at 0% 0%, #2c0000 0, #180000 12.5%, #160000 25%, #0f0000 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    height: 500px;
+    padding-top: 115px;
+    padding-left: 80px;
+}
+
+.topicality-titulo{
+    h2{
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: inherit;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-bottom: 2.5rem;
+        margin-block-start: 0;
+        letter-spacing: .07em;
+    }
+}

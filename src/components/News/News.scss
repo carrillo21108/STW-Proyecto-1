@@ -2,7 +2,7 @@
     width: auto;
     height: auto;
     margin-top: 90px;
-    margin-left: 40px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,29 +18,29 @@
     margin: auto 20px;
 
     h1{
-        font-family: 'Mark Pro',Arial,sans-serif;
+        font-family: Arial,sans-serif;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.9rem;
         color: #f0f0f0;
-        margin-bottom: 2rem;
         line-height: 1;
         letter-spacing: .01em;
     }
     
     p{
-        font-family: 'Mark Pro',Arial,sans-serif;
+        font-family: Outfit;
         font-weight: 400;
         font-size: 1.25rem;
         color: rgba(249,249,249,.6);
         margin-bottom: 3.125rem;
         line-height: 1.5rem;
         text-shadow: 0 0 4px rgba(0,0,0,.4);
-        letter-spacing: -.02em;
+        letter-spacing: .01em;
     }
     
     img{
         width: 65%;
         height: auto;
+        margin-bottom: 1rem;
     }
 
     a{
@@ -57,7 +57,7 @@
         border-radius: 18px;
         line-height: 1;
         min-width: 150px;
-        padding: 3px 6px;
+        padding: 2px 6px;
 
         span{
             position: relative;
@@ -72,12 +72,12 @@
             min-width: 150px;
             padding: 9px;
             padding-right: 25px;
-            font-size: 1.7rem;
+            font-size: 1.9rem;
             font-weight: 700;
-            letter-spacing: .045em;
+            letter-spacing: .07em;
             transition: all .2s ease-out;
             color: #f9f9f9;
-            font-family: 'Mark Pro',Arial,sans-serif;
+            font-family: Outfit;
             
             div{
                 display: flex;
