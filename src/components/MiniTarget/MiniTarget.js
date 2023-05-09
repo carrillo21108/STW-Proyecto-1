@@ -14,7 +14,7 @@ function MiniTarget(props){
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        marginLeft: '17%',
+        marginLeft: '17.9%',
         borderTopRightRadius: '8px',
         borderBottomRightRadius: '8px',
         backgroundImage: backUrl,
@@ -22,9 +22,11 @@ function MiniTarget(props){
 
     const style_ref = {
         display: 'block',
-        position: 'relative',
+        position: 'absolute',
         width: '100%',
-        height: '100%'
+        height: '100%',
+        top:'0',
+        left:'0',
     };
 
     return(
@@ -35,12 +37,15 @@ function MiniTarget(props){
                         <h2>{props.titulo}</h2>
                         <p>{props.descripcion}</p>
                     </div>
+                    <a style={style_ref}
+                        href={props.url}> 
+                    </a>
                 </div>
 
                 <div className='minitarget-image'
                 style={style}>
                     <a style={style_ref}
-                        href={props.url}> 
+                    href={props.url}> 
                     </a>
                 </div>
                 

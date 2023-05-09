@@ -2,13 +2,20 @@ $url: 'https://www.riotgames.com/darkroom/1370/4d54f9d2c0df5275758d74680ab0e5a4:
 
 .minitarget-container{
     display: flex;
+    border-radius: 8px;
+    border: 2.5px solid #111111;
+    transition: border-color 0.3s ease;
+}
+
+.minitarget-container:hover{
+    border-color: #9E9C99;
 }
 
 .minitarget-content {
     position: relative;
     background-color: rgba(128,128,128,.2);
     height: 120px;
-    width: 60%;
+    width: 65%;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
 
     border-top-left-radius: 8px;

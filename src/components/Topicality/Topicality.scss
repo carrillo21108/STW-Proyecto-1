@@ -68,6 +68,8 @@
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 8px;
+        border: 2.5px solid #1f1f1f;
+        transition: border-color 0.3s ease;
 
         h1{
             position: absolute;
@@ -94,6 +96,10 @@
             width: 100%;
             height: 100%;
         }
+    }
+
+    .main-target:hover{
+        border-color: #9E9C99;
     }
 
     .second-target{
