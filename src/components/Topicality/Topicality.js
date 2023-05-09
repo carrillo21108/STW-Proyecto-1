@@ -1,7 +1,6 @@
 import './Topicality.scss'
 import React from 'react'
 import MiniTarget from '../MiniTarget/MiniTarget';
-import article1_img from '../../../public/img/riot-impactreport-2022-es-cover.png'
 
 function Topicality(){
 
@@ -20,6 +19,7 @@ function Topicality(){
 
                 <div className='topicality-contenido'>
                     <div className='main-target'>
+                        <h1>Informe del impacto anual de 2022</h1>
                         <a
                         href='https://www.riotgames.com/es/2022-riot-games-impact-report'> 
                         </a>
@@ -51,7 +51,6 @@ function Topicality(){
                         urlImage='https://www.riotgames.com/darkroom/1370/231feb0372550ecf40a01173020aaa1c:6d2f94df63d5af1e612c7b4b74e9953b/bhm-key-art.png'/>
                     </div>
                 </div>
-                <div className='topicality-adicional'></div>
             </div>
         </div>
     );

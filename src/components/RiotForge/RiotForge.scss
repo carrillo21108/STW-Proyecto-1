@@ -1,0 +1,33 @@
+.riotforge-container{
+    background-color: #1f1f1f;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.riotforge-titulo{
+    display: flex;
+    margin-bottom: 2.5rem;
+
+    h2{
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: inherit;
+        display: flex;
+        justify-content: left;
+        margin-bottom: 2.5rem;
+        margin-block-start: 0;
+        letter-spacing: .07em;
+        text-align: left;
+    }
+}
+
+.riotforge-contenido{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}

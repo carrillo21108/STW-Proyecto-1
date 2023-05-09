@@ -1,5 +1,5 @@
 .topicality-container{
-    background-image: radial-gradient(circle at 0% 0%, #2c0000 0, #180000 12.5%, #160000 25%, #0f0000 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+    background-image: radial-gradient(circle at 0% 0%, #471919 0, #441d1d 12.5%, #1d1212 25%, #1d1212 37.5%, #111111 50%, #111111 62.5%, #111111 75%, #111111 87.5%, #111111 100%);
     height: auto;
     padding-top: 115px;
     padding-bottom: 85px;
@@ -48,11 +48,16 @@
         height: 15px;
         text-align: right;
     }
+
+    a:hover{
+        background-color: rgba(167, 167, 167, 0.2);
+    }
 }
 
 .topicality-contenido{
     display: flex;
     .main-target{
+        position: relative;
         width: 60%;
         margin-right: 2%;
         background-image: url('https://www.riotgames.com/assets/img/meta/f9af159e9f05b94f26b1cd30344451d1/2022impactreport-1200x600.png');
@@ -63,6 +68,25 @@
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 8px;
+
+        h1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: Outfit;
+            font-weight: 700;
+            font-size: 1.9rem;
+            line-height: inherit;
+            display: flex;
+            justify-content: left;
+            margin-bottom: 2.5rem;
+            margin-block-start: 0;
+            letter-spacing: .07em;
+            text-align: left;
+            color: #f9f9f9;
+            margin-left: 5%;
+            margin-top: 39%;
+        }
 
         a{ 
             display: block;

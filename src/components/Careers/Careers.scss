@@ -37,6 +37,10 @@
                 font-family: Outfit;
             }
 
+            a:hover{
+                background: rgba(100, 100, 99, 0.2)
+            }
+
             .first-target{
                 margin-right: 16px;
                 span{
@@ -114,6 +118,11 @@
                 color: #f9f9f9;
                 font-family: Outfit;
             }
+        }
+
+        .principal-target:hover{
+            background: linear-gradient(135deg,#a32629 0,#d53235 1%);
+            box-shadow: 0px 4px 40px -3px rgba(241, 240, 234, 0.5);
         }
     }
 }
