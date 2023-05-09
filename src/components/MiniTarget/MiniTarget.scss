@@ -1,0 +1,46 @@
+$url: 'https://www.riotgames.com/darkroom/1370/4d54f9d2c0df5275758d74680ab0e5a4:4bf06cffb1bee88745e6fdbdf3a3d910/riotpr-mar2023-social-twitch-1920x1080-03-17-2023.png';
+
+.minitarget-container{
+    display: flex;
+}
+
+.minitarget-content {
+    position: relative;
+    background-color: rgba(128,128,128,.2);
+    height: 120px;
+    width: 60%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    div{
+        position: relative;
+        text-align: left;
+
+        h2{
+            font-size: 1.2rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #f9f9f9;
+            margin-bottom: 1.5rem;
+            font-family: Outfit;
+            margin-block-start: 1rem;
+            letter-spacing: .07em;
+            max-width: 200px;
+            margin-left: 10%;
+            margin-block-end: 0.5rem;
+        }
+    
+        p{
+            font-family: Outfit;
+            font-size: 1rem;
+            color: #656462;
+            line-height: 1.2;
+            letter-spacing: .07em;
+            margin: 0 auto 2.5rem;
+            font-weight: 590;
+            max-width: 200px;
+        }
+    }
+}
